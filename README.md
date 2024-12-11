@@ -1,5 +1,10 @@
 # settings.json
-This json code should be pasted in vim's key binding
+Step 1:
+![image](https://github.com/user-attachments/assets/ae584f16-dbe8-41d2-a3d3-2959dfe9efa8)
+Step 2:
+Paste the code here
+![Uploading image.png…]()
+
 
 # tab_untab_vim.json
 
