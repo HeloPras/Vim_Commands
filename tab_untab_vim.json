@@ -1,0 +1,51 @@
+[
+  {
+    "key": "ctrl+h",
+    "command": "workbench.action.terminal.toggleTerminal",
+    "when": "terminal.active"
+  },
+  {
+    "key": "ctrl+`",
+    "command": "-workbench.action.terminal.toggleTerminal",
+    "when": "terminal.active"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "-workbench.action.togglePanel"
+  },
+  {
+    "key": "ctrl+h",
+    "command": "-editor.action.startFindReplaceAction",
+    "when": "editorFocus || editorIsOpen"
+  },
+  {
+    "key": "tab",
+    "command": "tab",
+    "when": "editorTextFocus && !editorTabMovesFocus"
+  },
+  {
+    "key": "shift+tab",
+    "command": "outdent",
+    "when": "editorTextFocus && !editorTabMovesFocus"
+  },
+  {
+    "key": "escape",
+    "command": "-extension.vim_escape",
+    "when": "editor && vim.active && !inDebugRepl"
+  },
+  {
+    "key": "up",
+    "command": "-extension.vim-up",
+    "when": "editorTextFocus && vim.active && !inDebugRepl && !parameterHintsVsible && !suggestWidgetVisible"
+  },
+  {
+    "key": "down",
+    "command": "-extension.vim_down",
+    "when": "editorTextFocus && vim.active && !inDebugRepl && !parameterHintsVisible && !suggestWidgetVisible"
+  },
+  {
+    "key": "ctrl+p",
+    "command": "-extension.vim_ctrl+p",
+    "when": "editorTextFocus && vim.active && vim.use<C-p> && !inDebugRepl || vim.active && vim.use<C-p> && !inDebugRepl && vim.mode == 'CommandlineInProgress' || vim.active && vim.use<C-p> && !inDebugRepl && vim.mode == 'SearchInProgressMode'"
+  }
+]
