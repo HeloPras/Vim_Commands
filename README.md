@@ -1,7 +1,7 @@
 # settings.json
 This json code should be pasted in vim's key binding
 
-#tab_untab_vim.json
+# tab_untab_vim.json
 
 Step 1:
 ![image](https://github.com/user-attachments/assets/5c799754-c279-494d-a421-2b365d9e6c88)
